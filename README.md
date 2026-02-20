@@ -22,6 +22,17 @@ This project was built using a domain-first architecture with a production disci
 - Toggle-driven pricing model
 - Test coverage for business logic
 
+## 🤖 AI Workflow
+
+This project follows a structured AI-assisted development workflow:
+
+- Architecture planning with ChatGPT
+- Repository operations via Codex
+- Inline acceleration with Copilot
+- Quality review checklist per feature
+
+See docs/ai-workflow.md for full details.
+
 ## 📦 Tech Stack
 
 - Next.js (App Router)
