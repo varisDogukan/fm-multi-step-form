@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Frontend Mentor - Multi Step Form
 
-## Getting Started
+Production-ready implementation of the Frontend Mentor Multi-Step Form challenge.
 
-First, run the development server:
+## 🚀 Approach
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This project was built using a domain-first architecture with a production discipline mindset:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Feature-based folder structure
+- Step-based validation with Zod
+- React Hook Form integration
+- Local persistence (localStorage)
+- Domain-layer pricing logic
+- Unit + integration tests
+- CI pipeline
+- AI-assisted engineering workflow (see docs/ai-workflow.md)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🧠 Engineering Decisions
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- No overengineering (no state machine)
+- Pure domain logic separated from UI
+- Toggle-driven pricing model
+- Test coverage for business logic
 
-## Learn More
+## 📦 Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- Next.js (App Router)
+- TypeScript
+- Tailwind
+- React Hook Form
+- Zod
+- Jest + React Testing Library
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🤖 AI Workflow
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project follows a structured AI-assisted development workflow:
 
-## Deploy on Vercel
+- Architecture planning with ChatGPT
+- Repository operations via Codex
+- Inline acceleration with Copilot
+- Quality review checklist per feature
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+See docs/ai-workflow.md for full details.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🔍 What Makes This Production-Ready?
+
+- Validation per step
+- Persistent form state
+- Accessible markup
+- CI quality gates
+- Domain unit tests
+
+## 🌍 Live Demo
+
+[link]
